@@ -1,0 +1,43 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'devserve' ]
+2 info using npm@3.3.6
+3 info using node@v5.0.0
+4 verbose run-script [ 'predevserve', 'devserve', 'postdevserve' ]
+5 info lifecycle redux-reddit-api@1.0.0~predevserve: redux-reddit-api@1.0.0
+6 silly lifecycle redux-reddit-api@1.0.0~predevserve: no script for predevserve, continuing
+7 info lifecycle redux-reddit-api@1.0.0~devserve: redux-reddit-api@1.0.0
+8 verbose lifecycle redux-reddit-api@1.0.0~devserve: unsafe-perm in lifecycle true
+9 verbose lifecycle redux-reddit-api@1.0.0~devserve: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/home/lono/javascript/redux-reddit-api/node_modules/.bin:/home/lono/.rvm/gems/ruby-2.1.2/bin:/home/lono/.rvm/gems/ruby-2.1.2@global/bin:/home/lono/.rvm/rubies/ruby-2.1.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/lono/.rvm/bin
+10 verbose lifecycle redux-reddit-api@1.0.0~devserve: CWD: /home/lono/javascript/redux-reddit-api
+11 silly lifecycle redux-reddit-api@1.0.0~devserve: Args: [ '-c',
+11 silly lifecycle   'webpack-dev-server  --hot --inline -d --config webpack.config.js --content-base public/ --progress --colors' ]
+12 silly lifecycle redux-reddit-api@1.0.0~devserve: Returned: code: 1  signal: null
+13 info lifecycle redux-reddit-api@1.0.0~devserve: Failed to exec devserve script
+14 verbose stack Error: redux-reddit-api@1.0.0 devserve: `webpack-dev-server  --hot --inline -d --config webpack.config.js --content-base public/ --progress --colors`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:233:16)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at EventEmitter.emit (events.js:172:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at ChildProcess.emit (events.js:172:7)
+14 verbose stack     at maybeClose (internal/child_process.js:818:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+15 verbose pkgid redux-reddit-api@1.0.0
+16 verbose cwd /home/lono/javascript/redux-reddit-api
+17 error Linux 3.13.0-39-generic
+18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "devserve"
+19 error node v5.0.0
+20 error npm  v3.3.6
+21 error code ELIFECYCLE
+22 error redux-reddit-api@1.0.0 devserve: `webpack-dev-server  --hot --inline -d --config webpack.config.js --content-base public/ --progress --colors`
+22 error Exit status 1
+23 error Failed at the redux-reddit-api@1.0.0 devserve script 'webpack-dev-server  --hot --inline -d --config webpack.config.js --content-base public/ --progress --colors'.
+23 error This is most likely a problem with the redux-reddit-api package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     webpack-dev-server  --hot --inline -d --config webpack.config.js --content-base public/ --progress --colors
+23 error You can get their info via:
+23 error     npm owner ls redux-reddit-api
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
